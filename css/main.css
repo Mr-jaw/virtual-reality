@@ -1,0 +1,470 @@
+:root {
+    --primary-color: #654aff;
+    --secondary-color: #b87cfc;
+    --dark-bg-color: #121212;
+    --light-bg-color: #302c2c;
+    --seconar-text-color: #938fa7;
+}
+
+
+.navbar-toggle-button {
+    border: none;
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, 0);
+}
+
+.nav-item .nav-link{
+    transition: .2s ease;
+}
+
+.section1-head {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.header-line {
+    background-color: var(--primary-color);
+    height: 0.4rem;
+    
+}
+
+.read-more-section1 {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+.read-more-section1:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0.3em whitesmoke;
+}
+
+.read-more-section1:focus {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0.3em whitesmoke;
+}
+
+.about-section {
+    background-color: #121212;
+}
+
+.about-section p, a {
+    color: whitesmoke;
+    opacity: 87%;
+}
+
+.section2 {
+    background-color: var(--primary-color);
+}
+
+.section2-card {
+    background-color: var(--dark-bg-color);
+}
+
+.section2-card .card-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.section2-card .card-text {
+    color: var(--seconar-text-color);
+}
+
+.section2-card .btn {
+    border: 0.125rem solid var(--primary-color);
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.section2-card .btn:hover {
+    border: 0.125rem solid whitesmoke;
+    box-shadow:  0 0 0.3em whitesmoke;
+}
+
+
+.section2-card {
+    position: relative;
+}
+
+.section2-svg{
+    background-color: #2f2b42;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.section3-svg {
+    background-color: #2f2b42;
+}
+
+.section3-flex {
+    align-items: center;
+}
+
+.section3 {
+    background-color: #121212;
+}
+
+.section3 h5 {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.section3 h1 {
+    color: whitesmoke;
+}
+
+.section3 p {
+    color: whitesmoke;
+}
+.section3 hr {
+    color: whitesmoke;
+}
+
+.section3 a {
+    color: var(--secondary-color);
+}
+
+.section-col-2 {
+    overflow: hidden;
+}
+
+.section3 .hero {
+    max-height: 35em;
+}
+
+.section4 {
+    background-color: var(--light-bg-color);
+}
+
+
+.section4 .section4-header h1{
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.section4 .card-num {
+    font-weight: 350;
+}
+
+
+.section4 .cards-1 {
+    background-color: #1f1c1c;
+    color: whitesmoke;
+    transition: .3s ease;
+    
+}
+
+.section4 .cards-1:hover {
+    transform: scale(104%);
+    box-shadow: 0 0 0.3em 0.05em var(--primary-color);
+}
+
+.section4 .cards-1 h1 {
+    color: var(--secondary-color);
+}
+
+.section4 .cards-2 {
+    background-color: #181414;
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.section4 .cards-2:hover {
+    transform: scale(104%);
+    box-shadow: 0 0 0.3em 0.05em var(--primary-color);
+}
+
+
+.section4 .cards-3 {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.section4 .cards-3:hover {
+    transform: scale(104%);
+    box-shadow: 0 0 0.3em 0.05em var(--dark-bg-color);
+}
+
+
+.section4 .cards-2 h1 {
+    color: var(--secondary-color);
+}
+
+.section5 {
+    background-color: var(--dark-bg-color);
+}
+
+
+.section5-col-1 h1{
+    letter-spacing: .2em;
+    font-weight: 350;
+    color: whitesmoke;
+}
+
+.section5-col-1 p{
+    color: whitesmoke;
+}
+
+.section5-col-1 p > a{
+    color: var(--secondary-color);
+}
+
+.section5-col-1 .bold{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.section5-col-1 .btn {
+    border: 0.125rem solid var(--primary-color);
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.section5-col-1 .btn:hover {
+    border: 0.125rem solid whitesmoke;
+    box-shadow: 0 0 0.3em whitesmoke;
+}
+
+.section5-col-2 img {
+    max-height: 36em;
+}
+
+.section6 {
+    background-image: url(/images/vr\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section6 h5 {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--secondary-color);
+}
+
+.section6 h3 {
+    font-weight: 375;
+    color: var(--secondary-color);
+}
+
+.section6 p {
+    color: whitesmoke;
+}
+
+.section6 .btn {
+    border: 0.125em solid var(--primary-color);
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.section6 .btn:hover {
+    border: 0.125em solid whitesmoke;
+    box-shadow: 0 0 0.3em whitesmoke;
+}
+
+.section6-card {
+    background-color: var(--dark-bg-color);
+}
+
+.section7 {
+    background-color: var(--dark-bg-color);
+}
+
+.section7 h3 {
+    font-weight: 650;
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+}
+
+.section7 p {
+    color: whitesmoke;
+}
+
+.section7-col-1 a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    transition:  color .4s ease;
+}
+
+.section7-col-1 a:hover {
+    color: var(--secondary-color);
+}
+
+.section7-col-1 p {
+    line-height: 1.8em;
+}
+
+.section7-col-2 h1 {
+    color: var(--secondary-color);
+}
+
+.section7-col-2 p {
+    text-transform: uppercase;
+    font-weight: 725;
+    letter-spacing: 0.2em;
+}
+
+.section8 {
+    background-color: var(--primary-color);
+    flex-direction: column;
+}
+
+.section8 hr {
+    opacity: 1;
+    width: 6em;
+    border-top: .7em solid var(--dark-bg-color);
+}
+
+.section8 h1 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: var(--light-bg-color);
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+footer p > a{
+    transition: .3s ease;
+}
+
+footer p > a:hover {
+    color: var(--secondary-color);
+}
+
+.close-button {
+    transition: .5s ease;
+}
+
+.close-button:focus {
+    box-shadow: none !important
+}
+
+.modal-title {
+    color: var(--secondary-color);
+}
+
+.modal-body p {
+    font-size: 1.05rem;
+    line-height: 2em;
+}
+
+
+.modal-footer button {
+    border: 0.125em solid var(--primary-color);
+    color: whitesmoke;
+    transition: .4s ease;
+}
+
+.modal-footer button:hover {
+    box-shadow: 0 0 0.3em whitesmoke;
+}
+
+#preloader {
+    background: black url(/gif/loader.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
+
+@media screen and (min-width: 31.25em) {
+    #preloader {
+        background-size: 60%;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    #preloader {
+        background-size: 40%;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    #preloader {
+        background-size: 20%;
+    }
+}
+
+@media screen and (max-width: 47.5em) {
+    .section3 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-col-2 {
+        width: 100%;
+    }
+
+    .section5 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section5-col-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 35.625em) {
+    .section6 {
+        background-image: url(/images/vr\ \(2\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60%;
+    }
+}
+
+@media screen and (max-width: 36em) {
+
+    #canvas button {
+        padding: .8em;
+        width: 1em;
+        background-color: whitesmoke;
+        transition: .5s ease;  
+    }
+
+    #canvas {
+        background-color: rgba(40,36,44, .9);
+        width: 100%;
+    }
+
+    .canvas {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       font-size: 2.7rem;
+       padding-top: 2em;
+       
+       
+    }
+
+    #canvas ul li {
+        margin: .5em;
+    }
+
+    .nav-link {
+        color: whitesmoke;
+    }
+}
+
+@media screen and (min-width: 36em) {
+    #canvas button {
+        display: none;
+    }
+}
